@@ -1,4 +1,4 @@
-from typing import Union
+ffrom typing import Union
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
@@ -6,74 +6,76 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 def help_pannel(_, START: Union[bool, int] = None):
     first = [
         InlineKeyboardButton(
-            text=_["CLOSEMENU_BUTTON"], callback_data=f"close"
+            text=" × Cʟosᴇ × ", callback_data=f"close"
+        ),
+        InlineKeyboardButton(
+            text=" ↻ Bᴀᴄᴋ ↺ ", callback_data="source_"
         )
     ]
     second = [
         InlineKeyboardButton(
-            text=_["BACK_BUTTON"],
-            callback_data=f"settingsback_helper",
+            text=" × Cʟosᴇ × ", callback_data=f"close"
         ),
         InlineKeyboardButton(
-            text=_["CLOSEMENU_BUTTON"], callback_data=f"close"
-        ),
+            text=" ↻ Bᴀᴄᴋ ↺ ", callback_data="source_"
+        )
     ]
     mark = second if START else first
     upl = InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
-                    text="ᴀᴅᴍɪɴ",
+                    text="Aᴅᴍɪɴ ♻️",
                     callback_data="help_callback hb1",
                 ),
                 InlineKeyboardButton(
-                    text="ᴀᴜᴛʜ",
+                    text="Aᴜᴛʜ ⚠️",
                     callback_data="help_callback hb2",
                 ),
                 InlineKeyboardButton(
-                    text="ʙʟᴀᴄᴋʟɪsᴛ",
+                    text="Bʟᴀᴄᴋʟɪsᴛ 🚫",
                     callback_data="help_callback hb3",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="ʙʀᴏᴀᴅᴄᴀsᴛ",
+                    text="Bʀᴏᴀᴅᴄᴀsᴛ 🔮",
                     callback_data="help_callback hb4",
                 ),
                 InlineKeyboardButton(
-                    text="ɢʙᴀɴ",
+                    text="Gʙᴀɴ 🌝",
                     callback_data="help_callback hb12",
                 ),
                 InlineKeyboardButton(
-                    text="ʟʏʀɪᴄs",
+                    text="Lʏʀɪᴄs ✨",
                     callback_data="help_callback hb5",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="ᴩɪɴɢ",
+                    text="Pɪɴɢ 🥀",
                     callback_data="help_callback hb7",
                 ),
                 InlineKeyboardButton(
-                    text="ᴩʟᴀʏ",
+                    text="Pʟᴀʏ 🥂",
                     callback_data="help_callback hb8",
                 ),
                 InlineKeyboardButton(
-                    text="ᴩʟᴀʏʟɪsᴛ",
+                    text="Pʟᴀʏʟɪsᴛ 🐣",
                     callback_data="help_callback hb6",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="ᴠɪᴅᴇᴏᴄʜᴀᴛs",
+                    text="Vɪᴅᴇᴏᴄʜᴀᴛs 🎐",
                     callback_data="help_callback hb10",
                 ),
                 InlineKeyboardButton(
-                    text="sᴛᴀʀᴛ",
+                    text="Sᴛᴀʀᴛ 🌸",
                     callback_data="help_callback hb11",
                 ),
                 InlineKeyboardButton(
-                    text="sᴜᴅᴏ",
+                    text="Sᴜᴅᴏ ⛔️",
                     callback_data="help_callback hb9",
                 ),
             ],
@@ -88,11 +90,10 @@ def help_back_markup(_):
         [
             [
                 InlineKeyboardButton(
-                    text=_["BACK_BUTTON"],
-                    callback_data=f"settings_back_helper",
+                    text=" ↻ Bᴀᴄᴋ ↺ ", callback_data="settings_back_helper"
                 ),
                 InlineKeyboardButton(
-                    text=_["CLOSE_BUTTON"], callback_data=f"close"
+                    text=" × Cʟosᴇ × ", callback_data=f"close"
                 )
             ]
         ]
@@ -104,7 +105,7 @@ def private_help_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="❄ ʜᴇʟᴩ ❄",
+                text="ʜᴇʟᴩ",
                 callback_data="settings_back_helper",
             ),
         ],
