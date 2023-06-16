@@ -14,7 +14,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://lollipop:bot@cluster0.egxcpju.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001802788933"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ʟᴏʟʟɪᴘᴏᴘ 🍭")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𓆩 𝑳𝒐𝒍𝒍𝒊𝒑𝒐𝒑 𓆪 •「ᴍᴇᴛᴀᴠɪᴛʏ™」")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5776889746").split()))
 
