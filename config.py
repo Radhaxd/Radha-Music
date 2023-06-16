@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Itz-Lakshya/Lollipop
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Lollipop_Support")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Lollipop_Updates")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MetavitySupport")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/MetavityUpdates")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
