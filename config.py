@@ -60,7 +60,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 
 # If you want your bot to setup the commands automatically in the bot's menu set it to true.
 # Refer to https://i.postimg.cc/Bbg3LQTG/image.png
-SET_CMDS = getenv("SET_CMDS", True)
+SET_CMDS = getenv("SET_CMDS", "True")
 
 STRING1 = getenv("STRING_SESSION", "BQA7RclbAd_zIbZektvmii-QvrfTnlc-8TB_z55w1q082O4ZelDZ4N78Y6STBETvDsGwy_H80oJ_Kxht62V_-u91YWF0aQYtxBoLwqbbB4vGofupW1inoebZ5QJLT77V7FVAhh53dyyDVbZCW1Je07J4A9CCE_I3xc7TQS-eOWXlDRozY6et7Gy0Ys2kpM1Ujsls7V_FDiwk7ik6KnMTc18U2xUHExfEAzCSad9tSuwjUPSgnevDVtFKVAgK2LobYVqujEySJrq3SzpbEkSVjf0Iz0c10d7pJvLGXa6WYHHLJGQriEY5NLdLUM8ZI1ZnMbBB4eBjOvyrKq2hSIW4-quvAAAAAWhQT_oA")
 STRING2 = getenv("STRING_SESSION2", None)
