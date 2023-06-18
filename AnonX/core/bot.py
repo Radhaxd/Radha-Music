@@ -34,7 +34,25 @@ class AnonXBot(Client):
                 "Bot has failed to access the log Group. Make sure that you have added your bot to your log channel and promoted as admin!"
             )
             sys.exit()
-
+        if config.SET_CMDS == str(True):
+            try:
+                await self.set_bot_commands(
+                    [
+                        BotCommand("start", "For start the bot"),
+                        BotCommand("ban", "banning member"),
+                        BotCommand("mhelp", "music command"),
+                        BotCommand("afk", "gonna to be away from tg(offline)"),
+                        BotCommand("alive", "Check the bot is dead or alive"),
+                        BotCommand("chelp", "management command"),
+                        BotCommand("stop", "stop filter"),
+                        BotCommand("welcome", "to set welcome message"),
+                        BotCommand("zombies", "find all deleted account")
+                        ]
+                    )
+            except:
+                pass
+        else:
+            pass
         a = await self.get_chat_member(config.LOG_GROUP_ID, self.id)
         if a.status != "administrator":
             LOGGER(__name__).error(
