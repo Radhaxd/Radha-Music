@@ -10,23 +10,23 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "29705318"))
 API_HASH = getenv("API_HASH", "3e2781d669267ba9165147f70110cc4e")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "6282745391:AAEyyEJe6oQ_kEwhWfkpl7ejMfCc7YjZWu8")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://lollipop:bot@cluster0.egxcpju.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001802788933"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𓆩 𝑳𝒐𝒍𝒍𝒊𝒑𝒐𝒑 𓆪 •「ᴍᴇᴛᴀᴠɪᴛʏ™」")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001847797595"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Radha Robot [Pvt]")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "5776889746").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6039423699").split("5776889746")))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Itz-Lakshya/Lollipop-Music")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Radhaxd/radha-music")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MetavitySupport")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/MetavityUpdates")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/RadhaX2Support")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/RadhaXUpdate")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # Refer to https://i.postimg.cc/Bbg3LQTG/image.png
 SET_CMDS = getenv("SET_CMDS", "True")
 
-STRING1 = getenv("STRING_SESSION", "BQA7RclbAd_zIbZektvmii-QvrfTnlc-8TB_z55w1q082O4ZelDZ4N78Y6STBETvDsGwy_H80oJ_Kxht62V_-u91YWF0aQYtxBoLwqbbB4vGofupW1inoebZ5QJLT77V7FVAhh53dyyDVbZCW1Je07J4A9CCE_I3xc7TQS-eOWXlDRozY6et7Gy0Ys2kpM1Ujsls7V_FDiwk7ik6KnMTc18U2xUHExfEAzCSad9tSuwjUPSgnevDVtFKVAgK2LobYVqujEySJrq3SzpbEkSVjf0Iz0c10d7pJvLGXa6WYHHLJGQriEY5NLdLUM8ZI1ZnMbBB4eBjOvyrKq2hSIW4-quvAAAAAWhQT_oA")
+STRING1 = getenv("STRING_SESSION", "BQCFdugLggzz848DBv1Y865vBplj1yHhPjBO-IDICnmtLx932qGsO5HDBYyantH2i4soneUnrEBLQVKYlAObNeLOsTwOmcrJnJpYQuxQ4tRc_u6JtxdieEUlwisj_AVtS77US-PrPMjvfWpwELxMYKcX2VFYGoTSCGgSlrOUWm-t6Pqz_JbtNaHGLIN060bERsg9HQ5HnXCXm2V4JrDcPQqE36FNTd3pzTGb6vTEJELzxbY1HV7yevIxlpc98luEpjq3OBDAdA7pAK1Fg3Cj_oyeLlrgecX0q_yPCYJh4L1JirEd_Aih57Y1hf8wvo0xsQ_zBT8wGzP65XKhT2xlikpEAAAAAWdEJFwA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
